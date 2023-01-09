@@ -24,10 +24,11 @@
 
 .navbar-brand:hover{
  color:rgba(255,255,255,0.75);
+ font-weight: 400;
 }
  
-.home-callout {
-  padding: 45px 0 60px 0;
+ 
+ .home-callout {
   /*Gradient provided by @_ighosh at uiGradients.com*/
   background: #2193b0;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
@@ -39,3 +40,8 @@ h1, h2, h3 {
  font-family: 'Source Sans Pro', sans-serif;
  font-weight: 300;
 } 
+
+.about-callout, .home-callout{
+padding: 45px 0 70px 0;
+}
+
