@@ -20,7 +20,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
-        <%= link_to "/", class:"navbar-brand" do %>
+        <%= link_to root_path, class:"navbar-brand" do %>
           <i class="fa-solid fa-people-group"></i>
           DevMatch
           <% end %>
@@ -33,7 +33,7 @@
             <!--  <a class="nav-link active" aria-current="page" href="#">Home</a>-->
             <!--</li>-->
             <li class="nav-item">
-              <%= link_to "About", "/about", class: "nav-link"  %>
+              <%= link_to "About", about_path, class: "nav-link"  %>
             </li>
           </ul>
         </div>
