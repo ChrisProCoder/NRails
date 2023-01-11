@@ -41,7 +41,11 @@ h1, h2, h3 {
  font-weight: 300;
 } 
 
-.about-callout, .home-callout{
-padding: 45px 0 70px 0;
+.top-padding {
+  padding-top: 30px
+}
+
+.about-callout, .home-callout {
+padding-bottom:60px;
 }
 
